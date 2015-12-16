@@ -12,7 +12,7 @@ class TodoListTest < MiniTest::Test
     @todo3 = Todo.new("Go to gym")
     @todos = [@todo1, @todo2, @todo3]
 
-    @list = TodoList.new("Today's todos")
+    @list = TodoList.new("Today's Todos")
     @list.add(@todo1)
     @list.add(@todo2)
     @list.add(@todo3)
